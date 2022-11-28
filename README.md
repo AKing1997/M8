@@ -1,5 +1,6 @@
 # M8 - Desenvueltamente de aplicaciones para a dispositivo móviles - Proyecto CAMKIT
 #
+- > La carpeta tengo en branch MASTER
 - > El proyecto consiste en crear una aplicación para dispositivos móviles.
 #
 - > Para frikis de Web3 que estén metidos en el mundo de Blockchain que de momento se encargara de visualizar o agregar en tu portafolio aquellos proyectos que te interesé sobre Blockchain
