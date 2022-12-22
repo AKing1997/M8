@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CAMKIT</string>
+    <string name="language" translatable="false">Idioma</string>
+    <string name="settings">Ajustes</string>
+    <string name="delete">Eliminar base de datos</string>
+    <string name="delete_perf">Eliminar todas las preferencias</string>
+    <string name="btn_delete_perf">Eliminar preferencias</string>
+    <string name="selectLanguage">Escoge lenguaje</string>
+    <string name="btn_home">Inicio</string>
+    <string name="btn_profile">Perfil</string>
+    <string name="btn_portafolio">Portafolio</string>
+    <string name="btn_search">Buscar</string>
+    <string name="camkit" translatable="false">CAMKIT</string>
+    <string name="btn_chat">Chat</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="hello_blank_fragment">Hola frgmento en blanco</string>
+    <string name="delete_data_base">Deseo eliminar todos los datos</string>
+
+    <string-array name="spinner_setting">
+        <item>Lenguage</item>
+        <item>Preferencias</item>
+        <item>Cerrar sesion</item>
+    </string-array>
+</resources>

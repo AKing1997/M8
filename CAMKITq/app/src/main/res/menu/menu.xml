@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_chat"
+        android:icon="@drawable/cir_chat"
+        android:title="@string/btn_chat" />
+    <item
+        android:id="@+id/btn_search"
+        android:icon="@drawable/cir_search"
+        android:title="@string/btn_search" />
+    <item
+        android:id="@+id/btn_home"
+        android:icon="@drawable/cir_home"
+        android:title="@string/btn_home" />
+    <item
+        android:id="@+id/btn_portafolio"
+        android:icon="@drawable/cir_portafolio"
+        android:title="@string/btn_portafolio" />
+    <item
+        android:id="@+id/btn_profile"
+        android:icon="@drawable/cir_user"
+        android:title="@string/btn_profile" />
+</menu>
