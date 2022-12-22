@@ -1,1 +1,5 @@
-
+- [X] Fes un nou fragment de configuració en el que l’usuari pugui escollir entre tres idiomes.
+- [X] Crea un botó al menú que permeti obrir el fragment de configuració
+- [X] Fes que quan cliquis el botó de return per tornar a la pantalla anterior es guardin les preferències mitjançant el Shared Preferences
+- [X] Guarda també un flag si l’usuari s’ha loguejat correctament i fes que no hagis de loguejar-te i directament et mostri el menú amb les diferents funcionalitats.
+- [X] A l’apartat de configuració fes un botó que elimini totes les preferències creades anteriorment. En aquest cas haurà d’agafar l’idioma per defecte i el proper cop que entris a l’aplicació t’haurà de demanar l’usuari i la contrasenya.
