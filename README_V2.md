@@ -5,6 +5,16 @@
 #
 - > Para frikis de Web3 que estén metidos en el mundo de Blockchain que de momento se encargara de visualizar o agregar en tu portafolio aquellos proyectos que te interesé sobre Blockchain
 #
+# Notas
+- [X] :+1: `1,5p. 	Shared preferences login`
+- [X] :+1: `1p. 	Eliminar Shared preferences`
+- [X] :+1: `2p. 	Shared preferences idioma`
+- [X] :+1: `1p. 	Menú superior` -> yo como tengo el diseño difrente no estoy usando menu superio, si no un spinner. :tada:
+- [X] :+1: `0,5p. 	Logout`
+- [X] :+1: `1p.	Fragment Settings` -> yo como tengo el diseño difrente no estoy usando fragments si he creado mis propios. :tada:
+- [X] :+1: `2p. 	Gestió de l’idioma`
+- [X] :+1: `1p. 	Codi net i comentat`
+- [X] :+1: `2p.	Optatiu: swiper` -> he hecho swiper.
 #
 - [X] :+1: `Fes un nou fragment de configuració en el que l’usuari pugui escollir entre tres idiomes.` :tada:
 - [X] :+1: `Crea un botó al menú que permeti obrir el fragment de configuració.` :tada:
