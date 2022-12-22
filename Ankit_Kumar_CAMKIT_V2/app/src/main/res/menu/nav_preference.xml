@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnLanguage"
+        android:title="@string/language" />
+    <item android:title="Data Base" />
+    <item
+        android:id="@+id/userModify"
+        android:title="@string/settings" />
+</menu>

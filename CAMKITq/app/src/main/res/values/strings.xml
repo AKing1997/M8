@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CAMKIT</string>
+    <string name="btn_home">Inicio</string>
+    <string name="btn_profile">Perfil</string>
+    <string name="btn_portafolio">Portafolio</string>
+    <string name="btn_search">Buscar</string>
+    <string name="btn_chat">Chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
