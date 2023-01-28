@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31f5594a-d6d8-425a-bfdf-cb82dc5b2995" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/androidTest/java/es/kankit/biblioteca/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/biblioteca-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/drawable/biblioteca_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-anydpi-v26/biblioteca.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-anydpi-v26/biblioteca_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-hdpi/biblioteca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-hdpi/biblioteca_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-mdpi/biblioteca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-mdpi/biblioteca_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-xhdpi/biblioteca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-xhdpi/biblioteca_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-xxhdpi/biblioteca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-xxhdpi/biblioteca_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-xxxhdpi/biblioteca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/mipmap-xxxhdpi/biblioteca_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/debug/res/values/biblioteca_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/Add.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/Book.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/DBHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/DetailBook.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/IUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/Landing.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/Libro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/Modifica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/RecyclerViewList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/java/es/kankit/biblioteca/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/drawable/delete_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/drawable/edit_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/drawable/library_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/drawable/local_library_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/drawable/person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/drawable/save_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/activity_landing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/fragment_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/fragment_detail_book.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/fragment_libro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/fragment_modifica.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/fragment_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/layout/item_libro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/app/src/test/java/es/kankit/biblioteca/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Splash.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_camkit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/splash_scene.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/androidTest/java/es/kankit/camkit/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/debug/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/Criptomoneda.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/DB/DB.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/DB/DBHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/DetellCripto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/Form.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/Home.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/Landig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/Language.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/List.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/Profile.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/RecycleViewList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/SwipeToDeleteCallback.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/java/es/kankit/camkit/UserPreference.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/profile_img-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/cir_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/cir_chat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/cir_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/cir_portafolio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/cir_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/cir_user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/custom_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/custom_email.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/custom_input.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/custom_top_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/customa_lock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_arrow_back_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_delete_white_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_lock_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_lock_focused_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_mail_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_mail_focused_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_menu_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_menu_open_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/ic_settings_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/icono.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/drawable/splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/font/quicksand.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/activity_landig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/activity_language.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/activity_user_preference.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/fragment_detell_cripto.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/fragment_form.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/fragment_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/item_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/layout/top_toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/menu/buttom_nav.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/menu/nav_preference.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/values-ca/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/values-es/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/values/profile_img_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/main/res/xml/root_preferences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/app/src/test/java/es/kankit/camkit/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit_Kumar_CAMKIT_V2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/DetellCripto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/DetellCripto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Home.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Landig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Landig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Language.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Language.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Profile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Profile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/RecycleViewList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/RecycleViewList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cir_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cir_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_preference.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_preference.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detell_cripto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detell_cripto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/top_toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ca/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ca/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/androidTest/java/es/kankit/camkit/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/java/es/kankit/camkit/FromFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/java/es/kankit/camkit/Landing.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/java/es/kankit/camkit/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable/cir_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable/cir_chat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable/cir_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable/cir_portafolio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable/cir_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable/cir_user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/layout/activity_landing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/layout/fragment_from.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/menu/menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/app/src/test/java/es/kankit/camkit/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CAMKITq/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/androidTest/java/es/kankit/composeankit/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/java/es/kankit/composeankit/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/java/es/kankit/composeankit/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/java/es/kankit/composeankit/ui/theme/Shape.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/java/es/kankit/composeankit/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/java/es/kankit/composeankit/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/app/src/test/java/es/kankit/composeankit/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComposeAnkit/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/7.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/Login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/assetWizardSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/androidTest/java/es/kankit/login/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/debug/ic_launcher_foreground-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/debug/iic_launcher_foreground-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/debug/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/ic_launcher_foreground-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/java/es/kankit/login/ButtonNavigation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/java/es/kankit/login/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/cir_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/cir_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/cir_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/custom_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/custom_email.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/custom_input.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/customa_lock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/ic_list_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/ic_lock_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/ic_lock_focused_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/ic_mail_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/ic_mail_focused_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/drawable/icono.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/font/roboto_medium.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/font/roboto_thin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/layout/activity_button_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/menu/menu_nav.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-anydpi-v26/icono.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values/font_certs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values/ic_launcher_foreground_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values/icono_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/app/src/test/java/es/kankit/login/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/androidTest/java/es/kankit/prueba/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/java/es/kankit/prueba/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/java/es/kankit/prueba/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/java/es/kankit/prueba/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/java/es/kankit/prueba/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/app/src/test/java/es/kankit/prueba/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/kotlin/es/kankit/nasa/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-hdpi/nasa_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-mdpi/nasa_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-xhdpi/nasa_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-xxhdpi/nasa_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/mipmap-xxxhdpi/nasa_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/font/Quicksand/Quicksand-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/font/Quicksand/Quicksand-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/font/Quicksand/Quicksand-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/font/Quicksand/Quicksand-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/font/Quicksand/Quicksand-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/img/nasa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/img/nasa_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/Desktop/EscritorioLayout.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/Mobile/MovilLayout.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/Pages/Landing.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/Pages/Login.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/Responsibe/Responsibe.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/Responsibe/element.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/Tablet/TabletLayout.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Base.lproj/MainMenu.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Configs/AppInfo.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Configs/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Configs/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Configs/Warnings.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/DebugProfile.entitlements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/MainFlutterWindow.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/macos/Runner/Release.entitlements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/icons/Icon-maskable-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/icons/Icon-maskable-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/icons/nasa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/web/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/flutter/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/flutter/generated_plugin_registrant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/flutter/generated_plugins.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/Runner.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/flutter_window.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/flutter_window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/resources/app_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/resources/nasa_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/runner.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/utils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/win32_window.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nasa/windows/runner/win32_window.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[WC8HZLSOQGTKMJLJ]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CAMKIT" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CAMKIT" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CAMKIT" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CAMKIT" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JHMfjGFgSeaIAd9ZSI3LeBVKKF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PROJECT_TRUSTED_KEY": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/Kumar/AndroidStudioProjects/CAMKIT/app/src/main/res/drawable",
+    "settings.editor.selected.configurable": "experimental",
+    "show.do.not.copy.http.proxy.settings.to.gradle": "true",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.-257501762">
+      <recent name="es.kankit.camkit" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="CAMKIT.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31f5594a-d6d8-425a-bfdf-cb82dc5b2995" name="Changes" comment="" />
+      <created>1671730664128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671730664128</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Class/CryptoGecko.kt</url>
+          <line>11</line>
+          <properties myFieldName="total_volume" myClassName="es.kankit.camkit.Interficie.CryptoGecko" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

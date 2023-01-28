@@ -1,0 +1,7 @@
+es.kankit.camkit.test.app-androidTest-0 C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\build\generated\res\resValues\androidTest\debug
+es.kankit.camkit.test.app-androidTest-1 C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\build\generated\res\rs\androidTest\debug
+es.kankit.camkit.test.app-mergeDebugAndroidTestResources-2 C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+es.kankit.camkit.test.app-mergeDebugAndroidTestResources-3 C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+es.kankit.camkit.test.app-merged_res-4 C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\build\intermediates\merged_res\debugAndroidTest
+es.kankit.camkit.test.app-androidTest-5 C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\src\androidTest\res
+es.kankit.camkit.test.app-androidTestDebug-6 C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\src\androidTestDebug\res
