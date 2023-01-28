@@ -71,6 +71,62 @@
       <change afterPath="$PROJECT_DIR$/../Biblioteca/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Biblioteca/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Biblioteca/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/androidTest/java/com/example/biblioteca_java/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/java/com/example/biblioteca_java/Data/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/java/com/example/biblioteca_java/Fragments/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/java/com/example/biblioteca_java/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/java/com/example/biblioteca_java/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/biblioteca_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/delete_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/edit_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/library_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/local_library_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/drawable/save_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/layout/fragment_biblioteca.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/layout/item_libro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/app/src/test/java/com/example/biblioteca_java/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Biblioteca_Java/settings.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/es/kankit/camkit/Splash.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_camkit.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
@@ -589,7 +645,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[WC8HZLSOQGTKMJLJ]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Kumar\.android\avd\Pixel_XL_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -668,18 +724,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PROJECT_TRUSTED_KEY": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Kumar/AndroidStudioProjects/CAMKIT/app/src/main/res/drawable",
-    "settings.editor.selected.configurable": "experimental",
-    "show.do.not.copy.http.proxy.settings.to.gradle": "true",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kumar/AndroidStudioProjects/Biblioteca&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;experimental&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kumar\AndroidStudioProjects\CAMKIT\app\src\main\res\drawable" />
