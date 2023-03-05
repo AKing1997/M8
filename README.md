@@ -1,5 +1,5 @@
 # M8 - Desenvueltamente de aplicaciones para a dispositivo móviles - Proyecto CAMKIT
-#
+# Importante esta en la rama https://github.com/CfAnkit/M8/tree/master
 - > La carpeta tengo en branch MASTER
 - > El proyecto consiste en crear una aplicación para dispositivos móviles.
 #
