@@ -6,9 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
+import es.kankit.camkit.Interficie.CryptoGecko
 
-class DetellCripto(get: Criptomoneda) : Fragment() {
+class DetellCripto(get: CryptoGecko) : Fragment() {
     var cripto = get;
     @SuppressLint("MissingInflatedId")
     override fun onCreateView(
@@ -17,12 +20,18 @@ class DetellCripto(get: Criptomoneda) : Fragment() {
     ): View? {
         val view:View = inflater.inflate(R.layout.fragment_detell_cripto, container, false);
         // Creando variables que contiene todos los text views para despues asignar el texto al campo que pertenece
+        val imgCryptoCoin: ImageView = view.findViewById(R.id.imgDetaillCoin);
         val textDetailName: TextView = view.findViewById(R.id.textDetailName);
         val textDetailType: TextView = view.findViewById(R.id.textDetailType);
-        val textDetailHash: TextView = view.findViewById(R.id.textDetailHash);
-        textDetailName.setText(cripto.getName().toString());
-        textDetailType.setText(cripto.getType().toString());
-        textDetailHash.setText(cripto.getHash().toString());
+        val textDetailRank: TextView = view.findViewById(R.id.textDetailRank);
+        val txtPrecio: TextView = view.findViewById(R.id.txtPrecio);
+        Glide.with(view)
+            .load(cripto.image.toString())
+            .into(imgCryptoCoin);
+        textDetailName.setText("Nombre:- ${cripto.name.toString()}");
+        textDetailType.setText("Red:- "+cripto.symbol.toString());
+        textDetailRank.setText("Rank:- "+cripto.market_cap_rank.toString());
+        txtPrecio.setText("Pecio:- "+cripto.current_price.toString()+" €");
 
         return view;
     }

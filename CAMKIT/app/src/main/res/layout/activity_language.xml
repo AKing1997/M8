@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_arrow_back_24"
-        app:tint="#FFFFFF"
+        app:tint="?attr/colorOnSecondary"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <TextView
@@ -37,7 +37,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/language"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/colorOnSecondary"
         android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/backImageButton2"
         app:layout_constraintTop_toTopOf="parent" />

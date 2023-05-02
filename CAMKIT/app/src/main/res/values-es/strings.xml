@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CAMKIT</string>
-    <string name="language" translatable="false">Idioma</string>
+    <string name="app_name" translatable="false">CAMKIT</string>
+    <string name="language" >Idioma</string>
+    <string name="search_text">Buscar aquí...</string>
     <string name="settings">Ajustes</string>
     <string name="delete">Eliminar base de datos</string>
     <string name="delete_perf">Eliminar todas las preferencias</string>

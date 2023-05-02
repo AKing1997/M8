@@ -7,9 +7,7 @@ import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.DisplayMetrics
-import android.view.View
 import android.widget.*
-import es.kankit.camkit.DB.DBHelper
 import java.util.*
 
 class Language : AppCompatActivity() {

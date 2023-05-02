@@ -33,7 +33,12 @@ class Landig : AppCompatActivity() {;
                 R.id.btn_portafolio -> {// fragmento List
                     loadFragment(List(dbHelper, this))
                     true
-                }// Frgmento de perfil donde tiene boton eliminar todo
+                }
+                R.id.btn_serach -> {// fragmento List
+                    loadFragment(Search())
+                    true
+                }
+                // Frgmento de perfil donde tiene boton eliminar todo
                 R.id.btn_profile -> {
                     loadFragment(Profile(dbHelper))
                    true

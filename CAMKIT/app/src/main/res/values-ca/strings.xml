@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">CAMKIT</string>
     <string name="language">Llenguatge</string>
+    <string name="search_text">Buscar ...</string>
+
     <string name="delete">Suprimeix la base de dades</string>
     <string name="delete_perf">Eliminar totes les preferències</string>
     <string name="btn_delete_perf">Eliminar preferències</string>
